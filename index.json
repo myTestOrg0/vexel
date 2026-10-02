@@ -90,6 +90,11 @@
       "id": "pkg:deb/debian/openssl-provider-legacy",
       "location": "pkg/deb/debian/openssl-provider-legacy/vex.json",
       "format": "openvex"
-    }
+    },
+    {
+      "id": "pkg:deb/debian/zlib1g-dev",
+      "location": "pkg/deb/debian/zlib1g-dev/vex.json",
+      "format": "openvex"
+    } 
   ]
 }
