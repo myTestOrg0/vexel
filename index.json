@@ -1,0 +1,95 @@
+{
+  "updated_at": "2026-10-02T09:15:19Z",
+  "packages": [
+    {
+      "id": "pkg:deb/debian/gcc-14-base",
+      "location": "pkg/deb/debian/gcc-14-base/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/libbz2-1.0",
+      "location": "pkg/deb/debian/libbz2-1.0/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/libc-dev-bin",
+      "location": "pkg/deb/debian/libc-dev-bin/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/libc6",
+      "location": "pkg/deb/debian/libc6/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/libc6-dev",
+      "location": "pkg/deb/debian/libc6-dev/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/libexpat1",
+      "location": "pkg/deb/debian/libexpat1/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/libexpat1-dev",
+      "location": "pkg/deb/debian/libexpat1-dev/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/libgcc-s1",
+      "location": "pkg/deb/debian/libgcc-s1/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/libncursesw6",
+      "location": "pkg/deb/debian/libncursesw6/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/libsqlite3-0",
+      "location": "pkg/deb/debian/libsqlite3-0/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/libssl3t64",
+      "location": "pkg/deb/debian/libssl3t64/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/libstdc%2B%2B6",
+      "location": "pkg/deb/debian/libstdc%2B%2B6/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/libtinfo6",
+      "location": "pkg/deb/debian/libtinfo6/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/libuuid1",
+      "location": "pkg/deb/debian/libuuid1/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/ncurses-base",
+      "location": "pkg/deb/debian/ncurses-base/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/ncurses-bin",
+      "location": "pkg/deb/debian/ncurses-bin/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/openssl",
+      "location": "pkg/deb/debian/openssl/vex.json",
+      "format": "openvex"
+    },
+    {
+      "id": "pkg:deb/debian/openssl-provider-legacy",
+      "location": "pkg/deb/debian/openssl-provider-legacy/vex.json",
+      "format": "openvex"
+    }
+  ]
+}

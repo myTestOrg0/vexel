@@ -1,0 +1,15 @@
+{
+  "name": "dhi-python-3.13-local-vex",
+  "description": "Local VEX overrides for selected vulnerabilities found in dhi.io/python:3.13",
+  "versions": [
+    {
+      "spec_version": "0.1",
+      "locations": [
+        {
+          "url": "https://github.com/myTestOrg0/vexel/archive/refs/heads/main.tar.gz//vexel-main"
+        }
+      ],
+      "update_interval": "24h"
+    }
+  ]
+}

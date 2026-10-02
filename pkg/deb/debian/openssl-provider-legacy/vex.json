@@ -1,0 +1,192 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "https://example.invalid/vex/pkg%3Adeb%2Fdebian%2Fopenssl-provider-legacy",
+  "author": "Local Security Team",
+  "role": "Document Creator",
+  "timestamp": "2026-10-02T09:15:19Z",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2026-35189"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u2%2Bdhi0?arch=arm64&distro=debian-13.6"
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Local security override: treat this vulnerability as affected.",
+      "action_statement_timestamp": "2026-10-02T09:15:19Z",
+      "status_notes": "Local VEX repository generated for testing dhi.io/python:3.13."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-35191"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u2%2Bdhi0?arch=arm64&distro=debian-13.6"
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Local security override: treat this vulnerability as affected.",
+      "action_statement_timestamp": "2026-10-02T09:15:19Z",
+      "status_notes": "Local VEX repository generated for testing dhi.io/python:3.13."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-42772"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u2%2Bdhi0?arch=arm64&distro=debian-13.6"
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Local security override: treat this vulnerability as affected.",
+      "action_statement_timestamp": "2026-10-02T09:15:19Z",
+      "status_notes": "Local VEX repository generated for testing dhi.io/python:3.13."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54872"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u2%2Bdhi0?arch=arm64&distro=debian-13.6"
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Local security override: treat this vulnerability as affected.",
+      "action_statement_timestamp": "2026-10-02T09:15:19Z",
+      "status_notes": "Local VEX repository generated for testing dhi.io/python:3.13."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54873"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u2%2Bdhi0?arch=arm64&distro=debian-13.6"
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Local security override: treat this vulnerability as affected.",
+      "action_statement_timestamp": "2026-10-02T09:15:19Z",
+      "status_notes": "Local VEX repository generated for testing dhi.io/python:3.13."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54875"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u2%2Bdhi0?arch=arm64&distro=debian-13.6"
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Local security override: treat this vulnerability as affected.",
+      "action_statement_timestamp": "2026-10-02T09:15:19Z",
+      "status_notes": "Local VEX repository generated for testing dhi.io/python:3.13."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-72897"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u2%2Bdhi0?arch=arm64&distro=debian-13.6"
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Local security override: treat this vulnerability as affected.",
+      "action_statement_timestamp": "2026-10-02T09:15:19Z",
+      "status_notes": "Local VEX repository generated for testing dhi.io/python:3.13."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-75804"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u2%2Bdhi0?arch=arm64&distro=debian-13.6"
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Local security override: treat this vulnerability as affected.",
+      "action_statement_timestamp": "2026-10-02T09:15:19Z",
+      "status_notes": "Local VEX repository generated for testing dhi.io/python:3.13."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-75805"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u2%2Bdhi0?arch=arm64&distro=debian-13.6"
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Local security override: treat this vulnerability as affected.",
+      "action_statement_timestamp": "2026-10-02T09:15:19Z",
+      "status_notes": "Local VEX repository generated for testing dhi.io/python:3.13."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-75806"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u2%2Bdhi0?arch=arm64&distro=debian-13.6"
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Local security override: treat this vulnerability as affected.",
+      "action_statement_timestamp": "2026-10-02T09:15:19Z",
+      "status_notes": "Local VEX repository generated for testing dhi.io/python:3.13."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-77696"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u2%2Bdhi0?arch=arm64&distro=debian-13.6"
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Local security override: treat this vulnerability as affected.",
+      "action_statement_timestamp": "2026-10-02T09:15:19Z",
+      "status_notes": "Local VEX repository generated for testing dhi.io/python:3.13."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-84782"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u2%2Bdhi0?arch=arm64&distro=debian-13.6"
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Local security override: treat this vulnerability as affected.",
+      "action_statement_timestamp": "2026-10-02T09:15:19Z",
+      "status_notes": "Local VEX repository generated for testing dhi.io/python:3.13."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-84784"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u2%2Bdhi0?arch=arm64&distro=debian-13.6"
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Local security override: treat this vulnerability as affected.",
+      "action_statement_timestamp": "2026-10-02T09:15:19Z",
+      "status_notes": "Local VEX repository generated for testing dhi.io/python:3.13."
+    }
+  ]
+}
