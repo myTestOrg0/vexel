@@ -1,0 +1,26 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "urn:socket-poc:synthetic:affected",
+  "author": "Synthetic test fixture not a vendor or product assessment",
+  "timestamp": "2026-11-08T00:00:00Z",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2019-10744"
+      },
+      "products": [
+        {
+          "@id": "urn:socket-poc:priority-test",
+          "subcomponents": [
+            {
+              "@id": "pkg:npm/lodash@4.17.11"
+            }
+          ]
+        }
+      ],
+      "status": "affected",
+      "action_statement": "Synthetic fixture only; not approved for product exceptions."
+    }
+  ]
+}

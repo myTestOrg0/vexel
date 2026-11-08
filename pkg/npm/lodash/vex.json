@@ -1,0 +1,43 @@
+{
+  "@context": "https://openvex.dev/ns/v0.2.0",
+  "@id": "urn:mytestorg0:socket-poc:dao-voting-ui:lodash",
+  "author": "myTestOrg0 Socket POC",
+  "timestamp": "2026-11-08T00:00:00Z",
+  "version": 1,
+  "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2019-10744"
+      },
+      "products": [
+        {
+          "@id": "urn:mytestorg0:dao-voting-ui",
+          "subcomponents": [
+            {
+              "@id": "pkg:npm/lodash@4.17.11"
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Applicability has not been assessed. Keep this finding visible; this is not a suppression."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8203"
+      },
+      "products": [
+        {
+          "@id": "urn:mytestorg0:dao-voting-ui",
+          "subcomponents": [
+            {
+              "@id": "pkg:npm/lodash@4.17.11"
+            }
+          ]
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "Applicability has not been assessed. Keep this finding visible; this is not a suppression."
+    }
+  ]
+}

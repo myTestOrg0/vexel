@@ -1,0 +1,122 @@
+{
+  "synthetic": true,
+  "product_id": "urn:socket-poc:priority-test",
+  "finding": {
+    "ecosystem": "npm",
+    "package": "lodash",
+    "version": "4.17.11",
+    "id": "CVE-2019-10744",
+    "ghsa": "GHSA-jf85-cpcp-j695",
+    "vulnerability": true,
+    "action": "error"
+  },
+  "cases": [
+    {
+      "id": "P01",
+      "name": "Own affected wins",
+      "sources": [
+        {
+          "name": "own",
+          "path": "poc/socket/fixtures/affected.openvex"
+        },
+        {
+          "name": "docker-dhi",
+          "path": "poc/socket/fixtures/not-affected.openvex"
+        }
+      ],
+      "expected_exit": 1
+    },
+    {
+      "id": "P02",
+      "name": "Own not_affected wins",
+      "sources": [
+        {
+          "name": "own",
+          "path": "poc/socket/fixtures/not-affected.openvex"
+        },
+        {
+          "name": "docker-dhi",
+          "path": "poc/socket/fixtures/affected.openvex"
+        }
+      ],
+      "expected_exit": 0
+    },
+    {
+      "id": "P03",
+      "name": "Docker fallback",
+      "sources": [
+        {
+          "name": "own",
+          "path": "poc/socket/fixtures/other-cve.openvex"
+        },
+        {
+          "name": "docker-dhi",
+          "path": "poc/socket/fixtures/not-affected.openvex"
+        }
+      ],
+      "expected_exit": 0
+    },
+    {
+      "id": "P04",
+      "name": "Aqua fallback",
+      "sources": [
+        {
+          "name": "own",
+          "path": "poc/socket/fixtures/other-cve.openvex"
+        },
+        {
+          "name": "docker-dhi",
+          "path": "poc/socket/fixtures/other-cve.openvex"
+        },
+        {
+          "name": "aqua",
+          "path": "poc/socket/fixtures/not-affected.openvex"
+        }
+      ],
+      "expected_exit": 0
+    },
+    {
+      "id": "P05",
+      "name": "Pending prevents lower suppression",
+      "sources": [
+        {
+          "name": "own",
+          "path": "poc/socket/fixtures/pending.openvex"
+        },
+        {
+          "name": "docker-dhi",
+          "path": "poc/socket/fixtures/not-affected.openvex"
+        }
+      ],
+      "expected_exit": 1
+    },
+    {
+      "id": "P06",
+      "name": "Different version does not match",
+      "sources": [
+        {
+          "name": "own",
+          "path": "poc/socket/fixtures/other-version.openvex"
+        }
+      ],
+      "expected_exit": 1
+    },
+    {
+      "id": "P07",
+      "name": "Expired document does not suppress",
+      "sources": [
+        {
+          "name": "own",
+          "path": "poc/socket/fixtures/expired.openvex"
+        }
+      ],
+      "expected_exit": 1
+    },
+    {
+      "id": "P08",
+      "name": "No VEX remains failed",
+      "sources": [],
+      "expected_exit": 1
+    }
+  ]
+}
