@@ -3,8 +3,8 @@
   "@id": "https://example.invalid/vex/pkg%3Adeb%2Fdebian%2Flibexpat1",
   "author": "Local Security Team",
   "role": "Document Creator",
-  "timestamp": "2026-10-02T09:15:19Z",
-  "version": 1,
+  "timestamp": "2026-11-24T00:00:00Z",
+  "version": 2,
   "statements": [
     {
       "vulnerability": {
@@ -19,6 +19,58 @@
       "action_statement": "Local security override: treat this vulnerability as affected.",
       "action_statement_timestamp": "2026-10-02T09:15:19Z",
       "status_notes": "Local VEX repository generated for testing dhi.io/python:3.13."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-113351"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/libexpat1@2.9.0-1~deb13u1%2Bdhi3"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "TEST entry: package-level, applies to every image with this libexpat1 version."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-115506"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/libexpat1@2.9.0-1~deb13u1%2Bdhi3"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "TEST entry: package-level, applies to every image with this libexpat1 version."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-117610"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/libexpat1@2.9.0-1~deb13u1%2Bdhi3"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "TEST entry: package-level, applies to every image with this libexpat1 version."
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-118370"
+      },
+      "products": [
+        {
+          "@id": "pkg:deb/debian/libexpat1@2.9.0-1~deb13u1%2Bdhi3"
+        }
+      ],
+      "status": "not_affected",
+      "justification": "vulnerable_code_not_in_execute_path",
+      "impact_statement": "TEST entry: package-level, applies to every image with this libexpat1 version."
     }
   ]
 }
